@@ -4,7 +4,11 @@
  */
 
 // Regular function call 
+const sumAll = (a, b, c) => a + b + c;
+let sum = sumAll(1, 2, 3);
+console.log("Sum:", sum);
 
 // Extra arguments are ignored
+
 
 // Function using ...rest
